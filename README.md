@@ -1,8 +1,10 @@
-# SoggyWaffle
+<p align="center"><img src="soggywaffle.png" alt="SoggyWaffle" width="128" height="128"></p>
 
-Surprisingly crispy AI agents that run on your own computer.
+<h1 align="center">SoggyWaffle</h1>
 
-**[⬇ Download the latest version](https://github.com/JoshDiesAtTheEnd/soggywaffle-releases/releases/latest)**
+<p align="center"><b>Surprisingly crispy AI agents, running on your own computer.</b></p>
+
+<p align="center"><a href="https://github.com/JoshDiesAtTheEnd/soggywaffle-releases/releases/latest"><b>⬇ Download the latest version</b></a></p>
 
 ## Install SoggyWaffle
 
@@ -25,7 +27,8 @@ Download from the **Assets** list at the bottom of the [latest release](https://
 **Windows**
 1. Download `SoggyWaffle-Setup.exe` and double-click it.
 2. If you see *"Windows protected your PC"*, click **More info → Run anyway** (the app isn't code-signed yet).
-3. Follow the installer. SoggyWaffle appears in your Start menu.
+3. Follow the installer (leave **Create a desktop shortcut** ticked). SoggyWaffle appears on your desktop and in the Start menu.
+4. To keep it in your taskbar: open SoggyWaffle, right-click its taskbar icon → **Pin to taskbar**.
 
 **Linux**
 1. Download `SoggyWaffle-x86_64.AppImage`.
@@ -33,7 +36,8 @@ Download from the **Assets** list at the bottom of the [latest release](https://
    ```
    chmod +x ~/Downloads/SoggyWaffle-x86_64.AppImage
    ```
-3. Double-click it. On first launch it adds itself to your app menu.
+3. Double-click it. On first launch it adds itself to your app menu, your desktop and your dock (Ubuntu/GNOME).
+   - On other desktops, right-click its dock/taskbar icon → **Pin** or **Add to favorites**.
    - If it won't open on Ubuntu 22.04+, install FUSE: `sudo apt install libfuse2`
 
 ### 3. First launch
